@@ -4,34 +4,83 @@
     "title": "What Happens If You Fall Into a Black Hole?",
     "description": "What would happen if you crossed a black hole's event horizon? Explore time dilation, tidal forces and the limits of our understanding.\n\nTHE UNKNOWN FILES — Beyond What We Know.",
     "scenes": [
-      {"heading":"THE POINT OF NO RETURN","text":"Imagine drifting through space. Ahead of you is a black hole: an object whose gravity is so powerful that not even light can escape once it crosses a boundary called the event horizon. What would happen if you fell in?"},
-      {"heading":"THE EVENT HORIZON","text":"The event horizon is not a solid surface. It is a boundary in spacetime. From the moment you cross it, every possible path forward leads deeper inside. No rocket, signal or beam of light can travel back out to the universe beyond it."},
-      {"heading":"TIME GETS STRANGE","text":"To a distant observer, your light would become increasingly delayed, dim and redshifted as you approach the horizon. You would appear to slow down and fade. But on your own clock, you would cross the horizon in a finite amount of time. Your watch would not suddenly stop."},
-      {"heading":"SPAGHETTIFICATION","text":"A black hole's gravity can pull much harder on the part of your body closest to it than on the part farther away. This difference is called a tidal force. Around a small black hole, it could stretch you lengthwise and squeeze you sideways: a process nicknamed spaghettification."},
-      {"heading":"SIZE CHANGES EVERYTHING","text":"Near a supermassive black hole, the event horizon can be so large that tidal forces at the horizon may be relatively mild. You might cross it without noticing a special boundary at that exact moment. Farther inside, however, the tidal forces would become fatal."},
-      {"heading":"WHAT IS AT THE CENTER?","text":"Classical general relativity predicts a singularity in the simplest description of a black hole. But a singularity also signals that our current equations have reached their limits. A complete theory of quantum gravity may be needed to describe what truly happens deep inside."},
-      {"heading":"BEYOND WHAT WE KNOW","text":"So falling into a black hole would mean crossing a one-way boundary, experiencing extreme gravity, and entering a region we cannot yet fully describe. The universe still holds mysteries that challenge our best science. Subscribe to THE UNKNOWN FILES, and discover something extraordinary every day."}
+      {
+        "heading": "THE POINT OF NO RETURN",
+        "text": "Imagine floating through deep space. Far ahead, a black circle seems to swallow the stars behind it. It is a black hole: a region where matter has been compressed so intensely that gravity shapes the paths of everything nearby. If you crossed a boundary called the event horizon, could you turn around? Could you send a warning? And what would happen to your body? The answers are stranger than science fiction, and they begin with one simple fact: inside that boundary, escape is no longer possible."
+      },
+      {
+        "heading": "WHAT IS THE EVENT HORIZON?",
+        "text": "A black hole is not a cosmic vacuum cleaner that sucks in everything across the universe. From far away, its gravity behaves like the gravity of any other object with the same mass. If our Sun were magically replaced by a black hole of exactly the same mass, Earth would continue along almost the same orbit. The danger comes when you travel close. The event horizon is the boundary around a black hole beyond which every possible future path leads inward. It is not a solid shell, and you would not necessarily hit a wall when crossing it. But once you are inside, even a beam of light aimed outward cannot escape."
+      },
+      {
+        "heading": "WOULD YOU SEE TIME STOP?",
+        "text": "Einstein's theory of general relativity tells us that gravity affects the passage of time. Imagine a friend watching from a safe distance as you fall toward the event horizon. The light you send outward takes longer and longer to reach them. It also loses energy, shifting toward redder wavelengths, and becomes fainter. Your friend would see your signals arrive more slowly, and you would appear to fade. But that is not what you experience on your own clock. Your heartbeat and watch continue normally as you fall. For a sufficiently large black hole, you could cross the horizon in a finite amount of your own time without noticing a special marker at the exact boundary."
+      },
+      {
+        "heading": "THE TERRIFYING TIDAL FORCE",
+        "text": "Now comes the part that gives black holes their most famous nickname for destruction. Gravity is stronger closer to the black hole. If your feet point toward it, your feet are pulled more strongly than your head. This difference in gravitational pull is called a tidal force. As the difference grows, it can stretch you lengthwise and squeeze you sideways. Scientists call this spaghettification. The name sounds almost funny, but the physics is deadly. Long before reaching the central region of a typical stellar-mass black hole, the tidal forces would tear apart a human body."
+      },
+      {
+        "heading": "A BIG BLACK HOLE IS DIFFERENT",
+        "text": "Here is an unexpected twist: the bigger the black hole, the less extreme the tidal forces can be right at its event horizon. A stellar-mass black hole may have a relatively small horizon and enormous tidal differences nearby. A supermassive black hole, millions or even billions of times the Sun's mass, has a much larger horizon. At that boundary, the change in gravity across your body could be comparatively gentle. In principle, you might cross without feeling a sudden jolt. That does not mean you would survive indefinitely. As you continued inward, the tidal forces would eventually become overwhelming."
+      },
+      {
+        "heading": "CAN YOU LOOK BACK OUT?",
+        "text": "Could you turn around after crossing the horizon and see the universe outside? You might still receive some light from the outside world for a while, depending on the black hole and your trajectory. But no message you send from inside can reach someone waiting beyond the horizon. The horizon is not merely a place where the engine stops working. It is a boundary in the geometry of spacetime itself. All future-directed routes lead deeper in. Even if you had the most powerful rocket imaginable, there would be no outward path to take."
+      },
+      {
+        "heading": "WHAT IS AT THE CENTER?",
+        "text": "If you follow the classical equations of general relativity all the way inward, the simplest black-hole solutions lead to a singularity: a place where quantities such as density or spacetime curvature become infinite in the mathematics. But physicists do not treat that as a complete, settled picture of what a real black hole's center must be. Infinities often tell us that a theory is being pushed beyond where it can answer the question. A future theory combining gravity with quantum physics may reveal a deeper description. Right now, the interior remains one of the most profound unsolved problems in physics."
+      },
+      {
+        "heading": "BEYOND WHAT WE KNOW",
+        "text": "So what happens if you fall into a black hole? You cross a one-way boundary. A distant observer sees your light slow, redden and fade, while your own clock continues normally. Depending on the black hole's size, tidal forces may destroy you before or after you cross the horizon. And what lies at the deepest center is still unknown. Black holes are not just cosmic monsters; they are natural laboratories that test the limits of our understanding of space, time and gravity. The universe is full of mysteries, and we have only begun to explore them. Subscribe to THE UNKNOWN FILES — and discover something extraordinary every day."
+      }
     ]
   },
   "shorts": [
     {
-      "title":"Can Time Stop Near a Black Hole?",
-      "description":"Time behaves strangely near a black hole — but does it actually stop?",
-      "scenes":[
-        {"heading":"DOES TIME STOP?","text":"Near a black hole, gravity changes how time is measured."},
-        {"heading":"TWO DIFFERENT VIEWS","text":"To a distant observer, a falling object appears to slow down and fade as its light becomes redder."},
-        {"heading":"YOUR CLOCK KEEPS TICKING","text":"But for the person falling in, their own clock ticks normally as they cross the event horizon."},
-        {"heading":"SPACE IS STRANGER THAN IT LOOKS","text":"Time does not simply stop for the falling person. Follow THE UNKNOWN FILES for more mysteries."}
+      "title": "Can Time Stop Near a Black Hole?",
+      "description": "Time behaves strangely near a black hole — but does it actually stop?",
+      "scenes": [
+        {
+          "heading": "CAN TIME STOP?",
+          "text": "Imagine falling toward a black hole. Does time actually stop when you reach it?"
+        },
+        {
+          "heading": "WHAT YOUR FRIEND SEES",
+          "text": "To someone watching from far away, your signals arrive more slowly. Your light becomes redder and fainter, making you appear to slow down and fade near the event horizon."
+        },
+        {
+          "heading": "WHAT YOU EXPERIENCE",
+          "text": "But your own clock keeps ticking normally. You cross the horizon in a finite amount of your own time. Time does not suddenly stop for you."
+        },
+        {
+          "heading": "SPACE IS STRANGER THAN IT LOOKS",
+          "text": "Gravity changes how different observers measure time. Follow THE UNKNOWN FILES for more cosmic mysteries."
+        }
       ]
     },
     {
-      "title":"A Black Hole Could Stretch You Like Spaghetti",
-      "description":"The strange physics of spaghettification.",
-      "scenes":[
-        {"heading":"A COSMIC NOODLE?","text":"A black hole could stretch an object into a long, thin shape."},
-        {"heading":"TIDAL FORCES","text":"Gravity pulls harder on the part closest to the black hole than the part farther away."},
-        {"heading":"STRETCH AND SQUEEZE","text":"That difference can stretch an object lengthwise and squeeze it sideways. Scientists call this spaghettification."},
-        {"heading":"THE UNIVERSE IS EXTREME","text":"The effect depends on the black hole's size. Discover more with THE UNKNOWN FILES."}
+      "title": "A Black Hole Could Stretch You Like Spaghetti",
+      "description": "The strange physics of spaghettification.",
+      "scenes": [
+        {
+          "heading": "A COSMIC NOODLE?",
+          "text": "Could a black hole stretch you like a piece of spaghetti? The answer comes from gravity."
+        },
+        {
+          "heading": "TIDAL FORCES",
+          "text": "The part of your body closest to a black hole feels a stronger gravitational pull than the part farther away."
+        },
+        {
+          "heading": "STRETCH AND SQUEEZE",
+          "text": "That difference can stretch an object lengthwise and squeeze it sideways. Physicists call this spaghettification."
+        },
+        {
+          "heading": "SIZE MATTERS",
+          "text": "Near a supermassive black hole, the tidal forces at the horizon can be much weaker than near a small one. Follow THE UNKNOWN FILES for more."
+        }
       ]
     }
   ]
