@@ -1,0 +1,35 @@
+name: Render THE UNKNOWN FILES videos
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 12 * * 1"
+
+permissions:
+  contents: read
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Check out channel project
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install free rendering tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg espeak-ng fonts-dejavu-core
+          python -m pip install --upgrade pip
+          pip install Pillow
+      - name: Render long video and Shorts
+        run: python scripts/render.py
+      - name: Save rendered videos
+        uses: actions/upload-artifact@v4
+        with:
+          name: the-unknown-files-videos
+          path: output/
+          retention-days: 14
