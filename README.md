@@ -34,3 +34,15 @@ Edit `content/episode.json` with original scripts you have rights to use. Keep t
 - `content/episode.json`: first black-hole episode and two Shorts.
 - `scripts/render.py`: offline renderer.
 - `.github/workflows/render.yml`: weekly and manual cloud workflow.
+
+
+## Optional YouTube upload
+
+The workflow now includes an optional upload step. To use it:
+
+1. Add repository Actions secrets named `YOUTUBE_CLIENT_ID`, `YOUTUBE_CLIENT_SECRET`, and `YOUTUBE_REFRESH_TOKEN`.
+2. Open **Actions** and select **Render THE UNKNOWN FILES videos**.
+3. Click **Run workflow** and enable **Upload the three rendered videos to YouTube as PRIVATE**.
+4. Review the uploaded videos in YouTube Studio. They are uploaded as **Private**, not published publicly.
+
+The scheduled Monday workflow only renders videos and saves the artifact; it does not upload. This avoids repeatedly uploading the same episode because the current `content/episode.json` is a fixed sample. Replace it with a new original episode before each upload. YouTube API quota, OAuth policy, and account restrictions still apply.
